@@ -1,0 +1,43 @@
+body {
+    background: #0f0f0f;
+    font-family: 'Poppins', sans-serif;
+    color: #e0e0e0;
+}
+.stButton>button {
+    background: linear-gradient(135deg, #00FFFF, #8A2BE2);
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+.stButton>button:hover {
+    box-shadow: 0 0 15px #00FFFF;
+    transform: translateY(-3px);
+}
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+.card:hover {
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+    transform: translateY(-5px);
+}
+.sidebar-title {
+    font-size: 1.5rem;
+    color: #00FFFF;
+    margin-bottom: 1rem;
+}
+.user-msg, .bot-msg {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 12px;
+    margin: 8px 0;
+}
+.user-msg { background: #1e1e1e; color: #00FFFF; text-align: right; }
+.bot-msg { background: #222222; color: #8A2BE2; text-align: left; }
